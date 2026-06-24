@@ -11,7 +11,7 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "germanyrp-secret-key-2026")
 
 DISCORD_CLIENT_ID = os.environ.get("DISCORD_CLIENT_ID")
 DISCORD_CLIENT_SECRET = os.environ.get("DISCORD_CLIENT_SECRET")
-DISCORD_REDIRECT_URI = os.environ.get("DISCORD_REDIRECT_URI", "https://germanyrp-dashboard.up.railway.app/callback")
+DISCORD_REDIRECT_URI = os.environ.get("DISCORD_REDIRECT_URI", "https://germanyrp-dashboard-production.up.railway.app/callback")
 BOT_OWNER_ID = "1408144132966322407"
 
 MONGODB_URL = os.environ.get("MONGODB_URL")
